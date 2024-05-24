@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "window.openFoldersInNewWindow": "on",
+    "editor.rulers": [
+        80, 100
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {"before": ["u"], "after": [], "commands": [{"command": "undo"}]},
+        {"before": ["<C-r>"], "after": [], "commands": [{"command": "redo"}]}
+    ],
+    "http.proxy": "http://127.0.0.1:33113",
+    "terminal.integrated.scrollback": 8196,
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": true
+}
