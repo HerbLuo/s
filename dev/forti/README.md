@@ -11,7 +11,7 @@
 
     ```sh
     sudo docker build -t forti-i .
-    sudo docker run --cap-add=NET_ADMIN --device=/dev/ppp --name forti --rm forti-i
+    sudo docker run -p 22332:22332 --cap-add=NET_ADMIN --device=/dev/ppp --name forti --rm forti-i
     ```
 
 3. Now you can use SSL-VPN via `http://<container-ip>:22332` or `socks5://<container-ip>:22332`.
