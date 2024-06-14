@@ -1,0 +1,5 @@
+host = sslv.demo.com
+port = 443
+username = demo
+password = pass
+trusted-cert = 3cfbb64884102e9e4d2287cbe5e70f0191cef99eeacf4b8b9450ac5154a9c46d
